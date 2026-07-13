@@ -41,10 +41,6 @@ const SplashScreen: React.FC<Props> = ({ onFinish }) => {
         source={getImage('LoaderBackground')}
         style={styles.SplashScreenBackgroundImage}
       />
-      <LinearGradient
-        colors={[Colors.overlayTop, Colors.overlayBottom]}
-        style={styles.SplashScreenOverlay}
-      />
 
       <View style={styles.SplashScreenContent}>
         <View style={styles.SplashScreenIconBox}>

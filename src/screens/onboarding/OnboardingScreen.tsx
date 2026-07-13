@@ -80,10 +80,6 @@ const OnboardingScreen: React.FC<Props> = ({ onFinish }) => {
               source={getImage(slide.image)}
               style={styles.OnboardingScreenHeroImage}
             />
-            <LinearGradient
-              colors={[Colors.overlayTop, Colors.overlayBottom]}
-              style={styles.OnboardingScreenHeroOverlay}
-            />
           </View>
 
           <View style={styles.OnboardingScreenBody}>
