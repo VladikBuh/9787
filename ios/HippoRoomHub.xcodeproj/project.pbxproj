@@ -9,22 +9,46 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-HippoRoomHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-HippoRoomHub.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1DAF5ACFB42D40DB928047FF /* PlayfairDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 531D184A22F5413B9E9B6988 /* PlayfairDisplay-Black.ttf */; };
+		2442B7AB26AD4A3FA4D4A109 /* PlayfairDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D861AF974844106A26CC69A /* PlayfairDisplay-MediumItalic.ttf */; };
+		3F677D409AF043AF82B9F0C1 /* PlayfairDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7F8AE08EC3348C9803EBADB /* PlayfairDisplay-ExtraBold.ttf */; };
 		46EDC50A7D02028778730E85 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		4A2008EB3C6E436EB795BC1D /* PlayfairDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 76C3C34C0FF64B65895CD44F /* PlayfairDisplay-SemiBold.ttf */; };
+		5288DD07F1B241049FB77B89 /* PlayfairDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A68D83A8B3F49F1A787A978 /* PlayfairDisplay-Regular.ttf */; };
+		654DF77393C14B0F8F4E5E04 /* PlayfairDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A866AAD0BF7451DAFA773AF /* PlayfairDisplay-BlackItalic.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9E07C9FE363A4A36B59158AC /* PlayfairDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D78C1AE7C85640FFB1F6DAA6 /* PlayfairDisplay-Medium.ttf */; };
+		B6AC0966D0834CEE97832E61 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D47D3A653CE244A180AA8690 /* PlayfairDisplay-ExtraBoldItalic.ttf */; };
+		B8F68DAE148544669ED1FDDD /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3904125A4EC94B71BFAF82FD /* PlayfairDisplay-Bold.ttf */; };
+		C81FF66F8EE54FB59F71113C /* PlayfairDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C35254A8F59D4A72AA0064AF /* PlayfairDisplay-BoldItalic.ttf */; };
+		C83424A59ADD4D8082D0BE4A /* PlayfairDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D26471F277B484E87248133 /* PlayfairDisplay-Italic.ttf */; };
+		DE8C806725C440EA980654BE /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D5DDFA95BB7495786495A02 /* PlayfairDisplay-SemiBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A68D83A8B3F49F1A787A978 /* PlayfairDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-Regular.ttf"; path = "../src/assets/fonts/PlayfairDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		0D26471F277B484E87248133 /* PlayfairDisplay-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-Italic.ttf"; path = "../src/assets/fonts/PlayfairDisplay-Italic.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HippoRoomHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HippoRoomHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HippoRoomHub/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HippoRoomHub/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = HippoRoomHub/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3904125A4EC94B71BFAF82FD /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-Bold.ttf"; path = "../src/assets/fonts/PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-HippoRoomHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippoRoomHub.debug.xcconfig"; path = "Target Support Files/Pods-HippoRoomHub/Pods-HippoRoomHub.debug.xcconfig"; sourceTree = "<group>"; };
+		3D5DDFA95BB7495786495A02 /* PlayfairDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-SemiBoldItalic.ttf"; path = "../src/assets/fonts/PlayfairDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		531D184A22F5413B9E9B6988 /* PlayfairDisplay-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-Black.ttf"; path = "../src/assets/fonts/PlayfairDisplay-Black.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-HippoRoomHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippoRoomHub.release.xcconfig"; path = "Target Support Files/Pods-HippoRoomHub/Pods-HippoRoomHub.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-HippoRoomHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HippoRoomHub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D861AF974844106A26CC69A /* PlayfairDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-MediumItalic.ttf"; path = "../src/assets/fonts/PlayfairDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = HippoRoomHub/AppDelegate.swift; sourceTree = "<group>"; };
+		76C3C34C0FF64B65895CD44F /* PlayfairDisplay-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-SemiBold.ttf"; path = "../src/assets/fonts/PlayfairDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		7A866AAD0BF7451DAFA773AF /* PlayfairDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-BlackItalic.ttf"; path = "../src/assets/fonts/PlayfairDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HippoRoomHub/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C35254A8F59D4A72AA0064AF /* PlayfairDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-BoldItalic.ttf"; path = "../src/assets/fonts/PlayfairDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D47D3A653CE244A180AA8690 /* PlayfairDisplay-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/PlayfairDisplay-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D78C1AE7C85640FFB1F6DAA6 /* PlayfairDisplay-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-Medium.ttf"; path = "../src/assets/fonts/PlayfairDisplay-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7F8AE08EC3348C9803EBADB /* PlayfairDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "PlayfairDisplay-ExtraBold.ttf"; path = "../src/assets/fonts/PlayfairDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +99,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FEFDA0A8F4D047E6A241E8D2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -96,6 +121,25 @@
 				5709B34CF0A7D63546082F79 /* Pods-HippoRoomHub.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FEFDA0A8F4D047E6A241E8D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3904125A4EC94B71BFAF82FD /* PlayfairDisplay-Bold.ttf */,
+				76C3C34C0FF64B65895CD44F /* PlayfairDisplay-SemiBold.ttf */,
+				D78C1AE7C85640FFB1F6DAA6 /* PlayfairDisplay-Medium.ttf */,
+				C35254A8F59D4A72AA0064AF /* PlayfairDisplay-BoldItalic.ttf */,
+				D47D3A653CE244A180AA8690 /* PlayfairDisplay-ExtraBoldItalic.ttf */,
+				0D26471F277B484E87248133 /* PlayfairDisplay-Italic.ttf */,
+				0A68D83A8B3F49F1A787A978 /* PlayfairDisplay-Regular.ttf */,
+				531D184A22F5413B9E9B6988 /* PlayfairDisplay-Black.ttf */,
+				3D5DDFA95BB7495786495A02 /* PlayfairDisplay-SemiBoldItalic.ttf */,
+				6D861AF974844106A26CC69A /* PlayfairDisplay-MediumItalic.ttf */,
+				7A866AAD0BF7451DAFA773AF /* PlayfairDisplay-BlackItalic.ttf */,
+				F7F8AE08EC3348C9803EBADB /* PlayfairDisplay-ExtraBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +205,18 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				46EDC50A7D02028778730E85 /* PrivacyInfo.xcprivacy in Resources */,
+				B8F68DAE148544669ED1FDDD /* PlayfairDisplay-Bold.ttf in Resources */,
+				4A2008EB3C6E436EB795BC1D /* PlayfairDisplay-SemiBold.ttf in Resources */,
+				9E07C9FE363A4A36B59158AC /* PlayfairDisplay-Medium.ttf in Resources */,
+				C81FF66F8EE54FB59F71113C /* PlayfairDisplay-BoldItalic.ttf in Resources */,
+				B6AC0966D0834CEE97832E61 /* PlayfairDisplay-ExtraBoldItalic.ttf in Resources */,
+				C83424A59ADD4D8082D0BE4A /* PlayfairDisplay-Italic.ttf in Resources */,
+				5288DD07F1B241049FB77B89 /* PlayfairDisplay-Regular.ttf in Resources */,
+				1DAF5ACFB42D40DB928047FF /* PlayfairDisplay-Black.ttf in Resources */,
+				DE8C806725C440EA980654BE /* PlayfairDisplay-SemiBoldItalic.ttf in Resources */,
+				2442B7AB26AD4A3FA4D4A109 /* PlayfairDisplay-MediumItalic.ttf in Resources */,
+				654DF77393C14B0F8F4E5E04 /* PlayfairDisplay-BlackItalic.ttf in Resources */,
+				3F677D409AF043AF82B9F0C1 /* PlayfairDisplay-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,9 +247,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HippoRoomHub/Pods-HippoRoomHub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HippoRoomHub/Pods-HippoRoomHub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -230,9 +290,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HippoRoomHub/Pods-HippoRoomHub-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HippoRoomHub/Pods-HippoRoomHub-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -273,12 +337,15 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfjkdjsfkelfkd.hipporoomhub;
 				PRODUCT_NAME = HippoRoomHub;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -302,11 +369,14 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfjkdjsfkelfkd.hipporoomhub;
 				PRODUCT_NAME = HippoRoomHub;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
