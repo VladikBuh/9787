@@ -337,7 +337,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dfjkdjsfkelfkd.hipporoomhub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfkjdajk.dksjslsdkfns;
 				PRODUCT_NAME = HippoRoomHub;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -369,7 +369,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dfjkdjsfkelfkd.hipporoomhub;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kfkjdajk.dksjslsdkfns;
 				PRODUCT_NAME = HippoRoomHub;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

@@ -10,9 +10,9 @@ workflows:
       vars:
         XCODE_WORKSPACE: 'HippoRoomHub.xcworkspace' # <----
         XCODE_SCHEME: 'HippoRoomHub' # <----
-        BUNDLE_ID: 'com.dfjkdjsfkelfkd.hipporoomhub' # <----
-        APP_STORE_APP_ID: 6790462702 # <----
-        APP_STORE_CONNECT_KEY_ID: 'Y36W3QXV3D' # <----
+        BUNDLE_ID: 'com.kfkjdajk.dksjslsdkfns' # <----
+        APP_STORE_APP_ID: 6791120343 # <----
+        APP_STORE_CONNECT_KEY_ID: '27SNAARQAJ' # <----
         APP_STORE_CONNECT_ISSUER_ID: '29d80f10-d214-4a6a-99bf-a4c949f7abd4' # <----
         node: latest
         xcode: latest
