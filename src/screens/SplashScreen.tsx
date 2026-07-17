@@ -62,7 +62,7 @@ const SplashScreen: React.FC<Props> = ({ onFinish }) => {
 
           <View style={styles.SplashScreenWordmark}>
             <Text style={styles.SplashScreenBrand}>Hippodrome</Text>
-            <Text style={styles.SplashScreenEyebrow}>ROOM HUB</Text>
+            <Text style={styles.SplashScreenEyebrow}>RESORT GUIDE</Text>
           </View>
 
           <View style={styles.SplashScreenLoaderBlock}>

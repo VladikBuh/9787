@@ -1,6 +1,6 @@
 export const Colors = {
   // Backgrounds
-  background: '#060A12',
+  background: 'rgba(15, 2, 31, 1)',
   backgroundCard: '#0D1525',
 
   // Accent — blue

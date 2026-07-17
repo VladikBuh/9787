@@ -1,4 +1,4 @@
-package com.hipporoomhub
+package com.hipporesort.guide
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

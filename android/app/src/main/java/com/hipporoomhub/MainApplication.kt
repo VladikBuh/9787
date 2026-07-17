@@ -1,4 +1,4 @@
-package com.hipporoomhub
+package com.hipporesort.guide
 
 import android.app.Application
 import com.facebook.react.PackageList
