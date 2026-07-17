@@ -1,6 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 
-import { Animated, Image, StyleSheet, Text, View } from 'react-native';
+import {
+  Animated,
+  Image,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 import { Colors, Radius, Typography } from '../theme';
@@ -41,35 +48,39 @@ const SplashScreen: React.FC<Props> = ({ onFinish }) => {
         source={getImage('LoaderBackground')}
         style={styles.SplashScreenBackgroundImage}
       />
-
-      <View style={styles.SplashScreenContent}>
-        <View style={styles.SplashScreenIconBox}>
-          <Image
-            source={getImage('LoaderIcon')}
-            style={styles.SplashScreenIconImage}
-          />
-        </View>
-
-        <View style={styles.SplashScreenWordmark}>
-          <Text style={styles.SplashScreenBrand}>Hippodrome</Text>
-          <Text style={styles.SplashScreenEyebrow}>CASINO HOTEL</Text>
-        </View>
-
-        <View style={styles.SplashScreenLoaderBlock}>
-          <View style={styles.SplashScreenProgressTrack}>
-            <LinearGradient
-              colors={[Colors.accent, Colors.accentLight]}
-              start={{ x: 0, y: 0 }}
-              end={{ x: 1, y: 0 }}
-              style={styles.SplashScreenProgressFill}
-            />
-            <Animated.View
-              style={[styles.SplashScreenProgressMask, { width: maskWidth }]}
+      <ScrollView
+        contentContainerStyle={{ flexGrow: 1 }}
+        showsVerticalScrollIndicator={false}
+      >
+        <View style={styles.SplashScreenContent}>
+          <View style={styles.SplashScreenIconBox}>
+            <Image
+              source={getImage('LoaderIcon')}
+              style={styles.SplashScreenIconImage}
             />
           </View>
-          <Text style={styles.SplashScreenLoadingLabel}>LOADING</Text>
+
+          <View style={styles.SplashScreenWordmark}>
+            <Text style={styles.SplashScreenBrand}>Hippodrome</Text>
+            <Text style={styles.SplashScreenEyebrow}>ROOM HUB</Text>
+          </View>
+
+          <View style={styles.SplashScreenLoaderBlock}>
+            <View style={styles.SplashScreenProgressTrack}>
+              <LinearGradient
+                colors={[Colors.accent, Colors.accentLight]}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 0 }}
+                style={styles.SplashScreenProgressFill}
+              />
+              <Animated.View
+                style={[styles.SplashScreenProgressMask, { width: maskWidth }]}
+              />
+            </View>
+            <Text style={styles.SplashScreenLoadingLabel}>LOADING</Text>
+          </View>
         </View>
-      </View>
+      </ScrollView>
     </View>
   );
 };
@@ -100,6 +111,9 @@ const styles = StyleSheet.create({
   SplashScreenIconBox: {},
   SplashScreenIconImage: {
     resizeMode: 'cover',
+    width: 240,
+    height: 240,
+    borderRadius: 50,
   },
   SplashScreenWordmark: {
     alignItems: 'center',
@@ -114,6 +128,7 @@ const styles = StyleSheet.create({
     ...Typography.label,
     color: Colors.textMuted,
     marginTop: 8,
+    marginBottom: 5,
   },
 
   SplashScreenLoaderBlock: {

@@ -43,7 +43,10 @@ const MenuItemDetailScreen: React.FC = () => {
     <View style={styles.MenuItemDetailScreenRoot}>
       <ScrollView showsVerticalScrollIndicator={false} bounces={false}>
         <View style={styles.MenuItemDetailScreenHero}>
-          <Image source={getImage(item.image)} style={{ height: 250 }} />
+          <Image
+            source={getImage(item.image)}
+            style={{ height: 250, width: '100%' }}
+          />
           <LinearGradient
             colors={['rgba(0,0,0,0.28)', 'rgba(6,10,18,0.95)']}
             style={styles.MenuItemDetailScreenHeroOverlay}

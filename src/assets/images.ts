@@ -4,7 +4,7 @@ const images: Record<string, number> = {
   LoaderIcon: require('./room-hoob-loader-icon.png'),
 
   // Onboarding
-  Onboard1: require('./room-hoob-onboard-1.png'),
+  Onboard1: require('./room-hoob-onboard-4.png'),
   Onboard2: require('./room-hoob-onboard-2.png'),
   Onboard3: require('./room-hoob-onboard-3.png'),
   Onboard4: require('./room-hoob-onboard-4.png'),

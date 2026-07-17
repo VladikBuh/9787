@@ -1,6 +1,6 @@
 workflows:
   react-native-ios:
-    name: Hippodrome Casino Room Hub
+    name: Hippodrome Room Hub
     max_build_duration: 120
     instance_type: mac_mini_m1
     environment:

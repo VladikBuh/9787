@@ -1,5 +1,5 @@
 /**
- * Hippodrome Casino Hotel — Room Hub
+ * Hippodrome Room Hub
  *
  * @format
  */

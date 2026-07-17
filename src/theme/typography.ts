@@ -41,7 +41,7 @@ export const Typography = {
     fontSize: 13,
     fontWeight: '500' as const,
   },
-  // Badge index ("1 / 5"), eyebrow ("CASINO HOTEL"), "LOADING" — mono-style label
+  // Badge index ("1 / 5"), eyebrow ("ROOM HUB"), "LOADING" — mono-style label
   label: {
     fontSize: 11,
     fontWeight: '400' as const,

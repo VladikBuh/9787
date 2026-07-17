@@ -198,6 +198,7 @@ const styles = StyleSheet.create({
     ...Typography.body,
     color: Colors.textMuted,
     marginTop: Spacing.sm,
+    marginBottom: 5,
   },
   OnboardingScreenSpacer: {
     flex: 1,

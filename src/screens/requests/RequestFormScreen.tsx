@@ -108,7 +108,11 @@ const RequestFormScreen: React.FC = () => {
             />
           </View>
 
-          <Pressable onPress={handleSubmit} disabled={!canSubmit}>
+          <Pressable
+            onPress={handleSubmit}
+            disabled={!canSubmit}
+            style={{ marginBottom: 20 }}
+          >
             {canSubmit ? (
               <LinearGradient
                 colors={[Colors.accent, Colors.accentDark]}

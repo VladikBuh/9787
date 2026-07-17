@@ -41,7 +41,7 @@ export const conciergeFaqs: ConciergeFaq[] = [
     id: 'facilities',
     question: 'What hotel facilities are available?',
     answer:
-      'Guests can enjoy the casino, restaurants, bars, room service, complimentary Wi-Fi, concierge assistance, parking facilities, housekeeping services, laundry service, and comfortable guest accommodations.',
+      'Guests can enjoy the restaurants, bars, room service, complimentary Wi-Fi, concierge assistance, parking facilities, housekeeping services, laundry service, and comfortable guest accommodations.',
   },
   {
     id: 'reception',
